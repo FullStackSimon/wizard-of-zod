@@ -1,0 +1,90 @@
+{
+  "name": "wizard-of-zod",
+  "version": "0.5.0",
+  "description": "A customisable form-stepper component for Shadcn-vue. Uses AutoForm and Zod.",
+  "type": "module",
+  "main": "dist/wizard-of-zod.es.js",
+  "module": "dist/wizard-of-zod.es.js",
+  "exports": {
+    "import": "./dist/wizard-of-zod.es.js",
+    "require": "./dist/wizard-of-zod.es.js"
+  },
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "vite",
+    "build": "npm run clean && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc -b",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage"
+  },
+  "keywords": [
+    "wizard-of-zod",
+    "vue",
+    "vue3",
+    "vue form",
+    "vue form stepper",
+    "vue form wizard",
+    "vue wizard",
+    "vue zod",
+    "shadcn autoform"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FullStackSimon/wizard-of-zod.git"
+  },
+  "homepage": "https://github.com/FullStackSimon/wizard-of-zod#readme",
+  "bugs": {
+    "url": "https://github.com/FullStackSimon/wizard-of-zod/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@vee-validate/zod": "^4.15.0",
+    "@vueuse/core": "^12.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.468.0",
+    "radix-vue": "^1.9.11",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.15.0",
+    "zod": "^3.24.1"
+  },
+  "peerDependencies": {
+    "pinia": "^2.0.0",
+    "tailwindcss": ">=3.0.0 <4.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^0.1.7",
+    "@rollup/plugin-alias": "^5.1.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/vue": "^8.1.0",
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/coverage-v8": "^2.1.8",
+    "@vue/compiler-sfc": "^3.5.13",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^25.0.1",
+    "pinia": "^2.3.0",
+    "postcss": "^8.4.49",
+    "rimraf": "^6.0.1",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "tailwindcss": "^3.4.16",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.3.0",
+    "vitest": "^2.1.8",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.1.10"
+  }
+}
