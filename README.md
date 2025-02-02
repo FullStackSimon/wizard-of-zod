@@ -10,8 +10,6 @@ Extensive documentation and examples are available on the [documentation site](h
 
 Massive shout out and big ups to [Shadcn for Vue](https://www.shadcn-vue.com/) who this package would not be possible without.
 
----
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
