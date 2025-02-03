@@ -113,6 +113,6 @@ onMounted(() => {
         </Button>
       </div>
     </AutoForm>
-    <p class="text-red-500">No schema detected.</p>
+    <p v-else class="text-red-500">No schema detected.</p>
   </div>
 </template>

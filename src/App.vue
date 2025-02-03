@@ -10,7 +10,8 @@ const emit = defineEmits<{
 const forms: Form<z.ZodObject<any>>[] = [
   {
     schema: z.object({
-      givenName: z.string().min(2).describe('What is your given name?')
+      givenName: z.string().min(2).describe('What is your given name?'),
+      familyNames: z.string().describe('What is your family name?')
     }),
   },
   {
