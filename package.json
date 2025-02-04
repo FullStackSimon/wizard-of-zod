@@ -1,6 +1,6 @@
 {
   "name": "wizard-of-zod",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A customisable form-stepper component for Shadcn-vue. Uses AutoForm and Zod.",
   "type": "module",
   "main": "dist/wizard-of-zod.es.js",
